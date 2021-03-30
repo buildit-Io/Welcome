@@ -2,6 +2,7 @@
 
 * [Welcome to buildit.Io](#welcome-to-buildit)
 	* [GitHub For the New Dev](#github-for-the-new-Dev)
+	* [Using GIT on IDEs](#using-git-for-ides)
 
 
 # Welcome to BuildIT
@@ -51,4 +52,7 @@ copy of the current main branch without downloading the main project into your l
 
 6. Navigate to the `amplifyIo` folder by entering `cd amplifyIo` or `cd path-to-amplifyIo-on-your-computer` into the Terminal
 7. Enter `git branch`
-8. If you are coming from 3i , you will notice the following result
+8. If you are coming from 3i , you will notice the following result:
+`*master <br/>
+your-branch`
+9. To make a new branch from any parent branch, enter `git branch your-new-branch parent-branch`. if you see `*master` on the previous step, `git branch your-new-branch` will suffice as 
