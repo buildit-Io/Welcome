@@ -7,6 +7,9 @@
 
 For the lost, newbie, developer who is trying to work in a team that employs GitHub:copyright: as a collaboration tool but was thrown to the deep end.
 
+To begin working on this project, you first need to have downloaded GIT for your system 
+
+
 ![](https://git-scm.com/images/logo@2x.png)
 
 #### Links 
