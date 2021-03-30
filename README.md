@@ -1,6 +1,9 @@
 **Table of Contents**
+-[Welcome to buildit.Io](#welcome-to-buildit)
+ *[GitHub For the New Dev](#github-for-the-new-Dev)
+# Welcome to BuildIT
 
-# GitHub For the New Dev
+## GitHub For the New Dev
 
 For the lost, newbie, developer who is trying to work in a team that employs GitHub:copyright: as a collaboration tool but was thrown to the deep end.
 
