@@ -1,11 +1,30 @@
-**NAVIGATE ME**
+# BuildIT.io
 
-* [Welcome to buildit.Io](#welcome-to-buildit)
+> The BuildIT.Io self-help/intro/new dev page. Everything that aren't related to the specific projects will fall under this repo
+
+## **NAVIGATE ME**
+* [Top](#buildit.io)
+	* [Welcome to buildIT](#welcome-to-buildit)
 	* [GitHub For the New Dev](#github-for-the-new-Dev)
 	* [Using GIT on IDEs](#using-git-for-ides)
 
+## Welcome to BuildIT.io
 
-# Welcome to BuildIT
+BuildIT is a wannabe Big-Tech-esque Company that focuses on taking up software projects and tagging monetary value to them. We want to build a company for New Developers, focusing on helping them to gain market exposure by embarking on our projects and breaking them into the market. 
+
+At the same time, we aim to build a strong developer core that is multi-faceted in their skill sets and have a genuine interest in solving issues. We don't just want you for being able to decribe Djikstra's Algorithm to me. We want ***you***.
+
+Engineering is in BuilIT's DNA. We are primarily a software company and we use programming to solve issues and provide solutions. We are not glorified wrapper kings. We try to be as KISS as posible with our products and we try not to provide a solution that is bespoke to client needs. As BuildIT progresses, the hope is that it will one day be a full-scale engineering company that can accept a wide scale of issues and provide practical and cost-efficient solutions.
+
+As part of BuildIT's effort to focus on the New Age Developer, we have come up with a few simple tutorials that most Senior Developers already have exposure to through their many years in the field. However, this information is likely to annoying and simplistic to teach new developers entering the field. 
+
+Here at BuildIT, we try to shy away from conventional "Baptisms of Fire" and focus instead on buidling up the ability of our New Developers. We at BuildIT want to create something sustainable and actionable for the new Economy, and we believe that at the core, we should do away with toxic coding environments that puts anybody down simply because they don't know how to write code.
+
+If you're new to working on a BuildIT project, or you're a new employee, we at BuildIT would like to extend our warmest greetings to you and we really hope that you have a blast at learning how to code!
+
+Else, we hope you enjoy the tutorials all the same!
+
+> Traditions are like cliches. They are everywhere. They may sometimes even be correct, but often they are justified by nothing except constant repetition. 
 
 ## GitHub For the New Dev
 
@@ -13,10 +32,11 @@ For the lost, newbie, developer who is trying to work in a team that employs Git
 
 To begin working on this project, you first need to have downloaded GIT for your system 
 
-
+\
 ![](https://git-scm.com/images/logo@2x.png)
+\
 
-#### Links 
+### Links 
 
 [GIT for Windows](https://git-scm.com/download/win)
 
@@ -27,7 +47,7 @@ To begin working on this project, you first need to have downloaded GIT for your
 >*The following assumes knowledge in the use of an Integrated Development Environment(IDE) or any text editor with an in-built terminal. We recommend either [Visual Studio](https://visualstudio.microsoft.com/), [Visual Studio Code](https://code.visualstudio.com/) or [any JetBrains IDE](https://www.jetbrains.com/products/#type=ide). **VIM is not recommended for new developers.** If you don't know what VIM is then ignore the warning. The reason why an IDE is recommended is because of the strong integration that IDEs have with GIT, which makes your coding journey feel less of a pain, especially when collaborating on a software project as a team*
 
 
-##### After Installing GIT...
+### After Installing GIT...
 
 1. Open up Terminal on your IDE/Text Editor.
 
@@ -69,4 +89,32 @@ copy of the current main branch without downloading the main project into your l
 	*main
 	```
 	
-9. To make a new branch from any parent branch, enter `git branch your-new-branch parent-branch`. if you see `*master` on the previous step, `git branch your-new-branch` will suffice as 
+9. To make a new branch from any parent branch, enter `git branch your-new-branch parent-branch`. if you see `*master` or `main` on the previous step, `git branch your-new-branch` will suffice
+10. To switch between branches, enter `git checkout the-branch-you-wish-to-navigate-to`.
+11. Typically, at this stage, you're going to make changes to the code in your branch. After this, you need to do the following:
+	1. `git commit -m "write a meaningful comment about your changes"`
+	2. `git push origin your-branch` if you're pushing to the main branch of the repository or `git push branch-to-push-changes-to your-branch`. 
+12. And you're done! You can now work effectively as part of a Software Team
+**BONUS**
+13. Let's say you want to update your repository to match the parent-branch, this is what you do
+	1. `git fetch branch-to-update-from` -> this command shows you all the files that are different 
+	2. `git pull` this will attempt to merge all the files by allowing you to first compare the differences
+	3. `git merge origin/branch-to-merge` -> this effectively writes all the changes from the parent-branch into the current-branch
+
+Usually, IDEs allow you to pull and accept changes manually. This is covered more in the specific IDE docs or the [quickguide](#using-git-on-ides) below!
+
+#### Why Branching?
+
+Branching is pretty cool because it allows you to manage multiple versions of your work without having to worry that altering anything on your current code, will break your original program. That's because all the changes are only happening inside the branch (this is written into the feature of GIT) and the only way to make changes to any other branch would be to `git branch other-branch` and then make changes on the code while on that branch. Changes made and saved on the other branch is also **NOT LOST** when you switch branches. Lastly, to finalise changes, the `git push` request must be approved and then `git merge` with the original branch. There is no other way. Cool huh!
+
+Here's a simple diagram to illustrate:
+
+\
+![](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
+\
+
+Using this diagram as a reference, you could even branch out from the your own branch, creating a branch of a branch, and write changes to your branch only when you are ready to do so. All this can be done by using the same concepts as laid out in the [walk-thorugh](#github-for-the-new-Dev) above, without the explicit need to keep multiple copies of the same code in your computer everytime you save your work. And can you imagine having to save a copy of your work everytime you need to make changes, and then go through debugging hell just to find out what changes you made broke your program (We've all been there) ? With the `git commit` -> `git push` -> approval -> `git merge` cycle, you can do away with doing extra work just to make sure you don't do anything stupid. Now that's pretty amazing.
+
+Well that's the end of the walk-through. Hope you enjoyed it!
+
+## Using GIT on IDEs
