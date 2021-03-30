@@ -1,6 +1,9 @@
-**Table of Contents**
--[Welcome to buildit.Io](#welcome-to-buildit)
- *[GitHub For the New Dev](#github-for-the-new-Dev)
+**NAVIGATE ME**
+
+* [Welcome to buildit.Io](#welcome-to-buildit)
+	* [GitHub For the New Dev](#github-for-the-new-Dev)
+
+
 # Welcome to BuildIT
 
 ## GitHub For the New Dev
