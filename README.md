@@ -143,7 +143,7 @@ and can be found at the bottom of the IDE when you first start the IDE.
 
 If not, you can follow this *general* steps to activate the terminal
 1. Naviagate to the top bar.
-2. Go through the drop down menus of each segement. 
+2. Go through the drop down menus of each segment. 
 	* For Visual Studio, you can find this under *Tools* > *Command Line* > *Developer Command Prompt*. 
 	* For Visual Studio Code, you can find this under *View* > *Terminal*
 	* For Jetbrain IDEs, you can find this under *View* > *Tool Windows* > *Terminal*
@@ -152,8 +152,10 @@ If not, you can follow this *general* steps to activate the terminal
 
 ### GIT on terminal
 
-Once you've activated the terminal, you can use the same `git` commands on the terminal in the IDE to use GIT. **ALWAYS REMEMBER TO BE IN THE CORRECT DIRECTORY**. The last thing you want to be doing is making git commands when you're not in the correct directory
+Once you've activated the terminal, you can use the same `git` commands as shown in the [previous section](#github-for-the-new-dev) on the terminal in the IDE to use GIT. **ALWAYS REMEMBER TO BE IN THE CORRECT DIRECTORY**. The last thing you want to be doing is making git commands when you're not in the correct directory
 
 ### GIT on the toolbar
 
 Most IDEs have the *Git* drop down on the toolbar. This basically works the same way as command line instructions. The only difference is that the error messages and certain processes that would have been easier to just key in the `git` command is now expressed in a visual form instead of simply just on the command line. 
+
+For any IDE-specific questions, head to your own IDE Docs :)
