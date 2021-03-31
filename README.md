@@ -136,9 +136,9 @@ Let's get to it.
 If you haven't read the [GitHub For the New Dev](#github-for-the-new-Dev) section of this README, we highly suggest you do. If not, you'll just be lost in this section.
 
 GIT is a software that runs on a terminal. The terminal is basiaclly a command line interface, which looks a little something like this:
-'''
+```
 Computer-238177:~ user$ 
-'''
+```
 and can be fiund at the bottom of the IDE when you first start the IDE.
 
 If not, you can follow this *general* steps to activate the terminal
