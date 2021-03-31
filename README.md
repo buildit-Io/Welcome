@@ -22,11 +22,11 @@ At the same time, we aim to build a strong developer core that is multi-faceted 
 
 Engineering is in BuilIT's DNA. We are primarily a software company and we use programming to solve issues and provide solutions. We are not glorified wrapper kings. We try to be as KISS as possible with our products and we try to provide solutions that are bespoke to client needs. As BuildIT progresses, the hope is that it will one day be a full-scale engineering company that can accept a wide scale of issues and provide practical and cost-efficient solutions.
 
-As part of BuildIT's effort to focus on the New Age Developer, we have come up with a few simple tutorials that most Senior Developers already have exposure to through their many years in the field. However, this information is likely to annoying and simplistic to teach new developers entering the field. 
+As part of BuildIT's effort to focus on the New Age Developer, we have come up with a few simple tutorials that most Senior Developers already have exposure to through their many years in the field. However, this information is likely too annoying and/or simplistic to teach new developers entering the field. 
 
-Here at BuildIT, we try to shy away from conventional "Baptisms of Fire" and focus instead on buidling up the ability of our New Developers. We at BuildIT want to create something sustainable and actionable for the new Economy, and we believe that at the core, we should do away with toxic coding environments that puts anybody down simply because they don't know how to write code.
+Here at BuildIT, we try to shy away from conventional "Baptisms of Fire" and focus instead on buidling up the ability and confidence of our New Developers. We at BuildIT want to create something sustainable and practical for the new age economy, and we believe that at the core, we should do away with toxic coding environments that puts anybody down simply because they don't know how to write code the way somebody wants them to.
 
-If you're new to working on a BuildIT project, or you're a new employee, we at BuildIT would like to extend our warmest greetings to you and we really hope that you have a blast at learning how to code!
+If you're new to working on a BuildIT project, or you're a new employee, we at BuildIT would like to extend our warmest greetings to you and we really hope that you have a blast at learning how to code in a team and being part of a bigger machinery!
 
 Else, we hope you enjoy the tutorials all the same!
 
@@ -117,6 +117,7 @@ Here's a simple diagram to illustrate:
 
 \
 ![](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
+
 \
 
 Using this diagram as a reference, you could even branch out from the your own branch, creating a branch of a branch, and write changes to your branch only when you are ready to do so. All this can be done by using the same concepts as laid out in the [walk-thorugh](#github-for-the-new-Dev) above, without the explicit need to keep multiple copies of the same code in your computer everytime you save your work. And can you imagine having to save a copy of your work everytime you need to make changes, and then go through debugging hell just to find out what changes you made broke your program (We've all been there) ? With the `git commit` -> `git push` -> approval -> `git merge` cycle, you can do away with doing extra work just to make sure you don't do anything stupid. Now that's pretty amazing.
