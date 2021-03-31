@@ -6,7 +6,13 @@
 * [Top](#buildit.io)
 	* [Welcome to buildIT](#welcome-to-buildit)
 	* [GitHub For the New Dev](#github-for-the-new-Dev)
+		* [Git Download Links](#links)
+		* [Using GIT](#why-branching)	 
+		* [Branching for New Devs](#why-branching)	 
 	* [Using GIT on IDEs](#using-git-for-ides)
+		* [Terminal?](#finding-the-terminal)
+		* [CLI GIT](#git-on-terminal)
+		* [IDE GIT](#git-on-the-toolbar)	 	
 
 ## Welcome to BuildIT.io
 
@@ -118,3 +124,36 @@ Using this diagram as a reference, you could even branch out from the your own b
 Well that's the end of the walk-through. Hope you enjoyed it!
 
 ## Using GIT on IDEs
+
+IDEs are amazing tools for developers. It's the glorified toolbox equivalent for any developer. BuildIT recommends the following IDEs - [Visual Studio](https://visualstudio.microsoft.com/), [Visual Studio Code](https://code.visualstudio.com/) or [any JetBrains IDE](https://www.jetbrains.com/products/#type=ide) - because they have been tried and tested in the market for a long time now. 
+
+This section is focused on using GIT with IDEs and not any of the specific functionalities of the IDEs themselves. This is because IDEs are all different and have their own seperate toolchains and features which will really become useful depending on the use cases of each specific task/project. If anything, the specific feature that needs to be used for the IDE should be highlighted in the official README or documentation of the tasks/project itself. **THIS IS NOT A Q AND A PAGE**. We do this solely for the sanity of all developers in BuildIT and to help foster a sense of independent learning within the company walls. 
+
+Let's get to it.
+
+### Finding the terminal
+
+If you haven't read the [GitHub For the New Dev](#github-for-the-new-Dev) section of this README, we highly suggest you do. If not, you'll just be lost in this section.
+
+GIT is a software that runs on a terminal. The terminal is basiaclly a command line interface, which looks a little something like this:
+'''
+Computer-238177:~ user$ 
+'''
+and can be fiund at the bottom of the IDE when you first start the IDE.
+
+If not, you can follow this *general* steps to activate the terminal
+1. Naviagate to the top bar.
+2. Go through the drop down menus of each segement. 
+	* For Visual Studio, you can find this under *Tools* > *Command Line* > *Developer COmmand Prompt*. 
+	* For Visual Studio Code, you can find this under *View* > *Terminal*
+	* For Jetbrain IDEs, you can find this under *View* > *Tool Windows* > *Terminal*
+4. Click on the option to activate the Terminal
+5. You will see the terminal pop up in the screen
+
+### GIT on terminal
+
+Once you've activated the terminal, you can use the same `git` commands on the terminal in the IDE to use GIT. **ALWAYS REMEMBER TO BE IN THE CORRECT DIRECTORY**. The last thing you want to be doing is making git commands when you're not in the correct directory
+
+### GIT on the toolbar
+
+Most IDEs have the *Git* drop down on the toolbar. This basically works the same way as command line instructions. The only difference is that the error messages and certain processes that would have been easier to just key in the `git` command is now expressed in a visual form instead of simply just on the command line. 
