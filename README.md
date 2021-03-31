@@ -139,7 +139,7 @@ GIT is a software that runs on a terminal. The terminal is basically a command l
 ```
 Computer-238177:~ user$ 
 ```
-and can be fiund at the bottom of the IDE when you first start the IDE.
+and can be found at the bottom of the IDE when you first start the IDE.
 
 If not, you can follow this *general* steps to activate the terminal
 1. Naviagate to the top bar.
