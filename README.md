@@ -40,7 +40,7 @@ To begin working on this project, you first need to have downloaded GIT for your
 
 \
 ![](https://git-scm.com/images/logo@2x.png)
-\
+
 
 ### Links 
 
@@ -118,7 +118,6 @@ Here's a simple diagram to illustrate:
 \
 ![](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)
 
-\
 
 Using this diagram as a reference, you could even branch out from the your own branch, creating a branch of a branch, and write changes to your branch only when you are ready to do so. All this can be done by using the same concepts as laid out in the [walk-thorugh](#github-for-the-new-Dev) above, without the explicit need to keep multiple copies of the same code in your computer everytime you save your work. And can you imagine having to save a copy of your work everytime you need to make changes, and then go through debugging hell just to find out what changes you made broke your program (We've all been there) ? With the `git commit` -> `git push` -> approval -> `git merge` cycle, you can do away with doing extra work just to make sure you don't do anything stupid. Now that's pretty amazing.
 
