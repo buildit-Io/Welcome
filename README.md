@@ -18,7 +18,7 @@
 
 BuildIT is a wannabe Big-Tech-esque Company that focuses on taking up software projects and tagging monetary value to them. We want to build a company for New Developers, focusing on helping them to gain market exposure by embarking on our projects and breaking them into the market. 
 
-At the same time, we aim to build a strong developer core that is multi-faceted in their skill sets and have a genuine interest in solving issues. We don't just want you for being able to decribe Djikstra's Algorithm to me. We want ***you***.
+At the same time, we aim to build a strong developer core that is multi-faceted in their skill sets and have a genuine interest in solving issues. We don't just want you for being able to describe Djikstra's Algorithm to us. We want ***you***.
 
 Engineering is in BuilIT's DNA. We are primarily a software company and we use programming to solve issues and provide solutions. We are not glorified wrapper kings. We try to be as KISS as posible with our products and we try not to provide a solution that is bespoke to client needs. As BuildIT progresses, the hope is that it will one day be a full-scale engineering company that can accept a wide scale of issues and provide practical and cost-efficient solutions.
 
