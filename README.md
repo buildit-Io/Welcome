@@ -144,7 +144,7 @@ and can be fiund at the bottom of the IDE when you first start the IDE.
 If not, you can follow this *general* steps to activate the terminal
 1. Naviagate to the top bar.
 2. Go through the drop down menus of each segement. 
-	* For Visual Studio, you can find this under *Tools* > *Command Line* > *Developer COmmand Prompt*. 
+	* For Visual Studio, you can find this under *Tools* > *Command Line* > *Developer Command Prompt*. 
 	* For Visual Studio Code, you can find this under *View* > *Terminal*
 	* For Jetbrain IDEs, you can find this under *View* > *Tool Windows* > *Terminal*
 4. Click on the option to activate the Terminal
