@@ -20,7 +20,7 @@ BuildIT is a wannabe Big-Tech-esque Company that focuses on taking up software p
 
 At the same time, we aim to build a strong developer core that is multi-faceted in their skill sets and have a genuine interest in solving issues. We don't just want you for being able to describe Djikstra's Algorithm to us. We want ***you***.
 
-Engineering is in BuilIT's DNA. We are primarily a software company and we use programming to solve issues and provide solutions. We are not glorified wrapper kings. We try to be as KISS as posible with our products and we try not to provide a solution that is bespoke to client needs. As BuildIT progresses, the hope is that it will one day be a full-scale engineering company that can accept a wide scale of issues and provide practical and cost-efficient solutions.
+Engineering is in BuilIT's DNA. We are primarily a software company and we use programming to solve issues and provide solutions. We are not glorified wrapper kings. We try to be as KISS as possible with our products and we try to provide solutions that are bespoke to client needs. As BuildIT progresses, the hope is that it will one day be a full-scale engineering company that can accept a wide scale of issues and provide practical and cost-efficient solutions.
 
 As part of BuildIT's effort to focus on the New Age Developer, we have come up with a few simple tutorials that most Senior Developers already have exposure to through their many years in the field. However, this information is likely to annoying and simplistic to teach new developers entering the field. 
 
