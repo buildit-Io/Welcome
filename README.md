@@ -72,7 +72,8 @@ To begin working on this project, you first need to have downloaded GIT for your
 5. Before the next step, a little trivia for the new developers:
 
 	>__*Bite-sized Branching for the New Dev*__
-	>*Branching is the main way to **NOT MUCK UP** your project. Think about branching as creating a 
+	>
+	>	*Branching is the main way to **NOT MUCK UP** your project. Think about branching as creating a 
 copy of the current main branch without downloading the main project into your local system. This is important in the later stages of the software project when we want to* `push` *changes to the project (**or in layperson terms, we want to modify the project when a developer has made some changes to the copy of the original program on his local computer and wishes to change the actual original program hosted on GitHub:copyright:**). Branches are made so that when a developer does a* `push` *operation from the developer's local computer, it ends up as a* `merge` *request for the* `main` *branch of the repository - which first requires an approval - rather then acting on the* `main` *branch itself. This is an additional layer of checks and balances employed to ensure that changes made to the actual program are ones that have already been approved by the owner of the* `main` *branch. As small changes in one part of the code may very quickly make the entire program **FAIL**, this is also a good method to ensure that the evolution of a project can be tracked through a history of* `push` *requests that can be seen by the owner of the repository.*
 
 6. Navigate to the `amplifyIo` folder by entering `cd amplifyIo` or `cd path-to-amplifyIo-on-your-computer` into the Terminal
